@@ -1,12 +1,27 @@
 :root {
   --color-primary:#ffffff;
   --color-header:#000000;
-  --color-text:#c0c0c0;
+  --color-text:#626262;
   --color-cta:#f0f0f0;
   --color-black:rgba(0,0,0, 0.7);
   --shadow-dark: 0 1rem 2rem rgba(0, 0, 0, 0.4);
 }
 
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(../FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url(../FONTS/Ubuntu/Ubuntu-Light.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Inconsolata;
+  src: url(../FONTS/Inconsolata/Inconsolata-Regular.ttf);
+  font-weight: 400;
+}
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +39,7 @@ html {
 }
 
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: PlayfairDisplay;
   font-weight: 400;
   line-height: 1.6;
   color: var(--color-black);
@@ -67,6 +82,7 @@ body {
 }
 
 .cta {
+  margin-top: -11.5rem;
   width: 120rem;
   height: 29rem;
   margin-left: -15rem;
@@ -98,6 +114,7 @@ body {
   color: var(--color-text);
 }
 .nav__title {
+  font-family: Inconsolata;
   font-size: 3rem;
   font-weight: 400;
   letter-spacing: 3px;
@@ -127,11 +144,12 @@ body {
 .list {
   display: flex;
   flex-wrap: wrap;
-  margin: 5rem 0;
+  margin: 13rem 0;
   justify-content: space-between;
 }
 .list__item {
   flex: 0 0 42rem;
+  margin-bottom: 12rem;
 }
 
 .post {
@@ -140,12 +158,12 @@ body {
 .post__title {
   text-transform: uppercase;
   color: var(--color-text);
-  font-family: 'Ubuntu', sans-serif;
-  letter-spacing: 1px;
+  font-family: Ubuntu;
+  font-weight: 400;
   margin-bottom: 2rem;
 }
-.post__content {
-  font-weight: 500;
+.post__content, .post__header {
+  font-family: PlayfairDisplay;
 }
 .post__header {
   font-size: 3rem;
@@ -158,24 +176,26 @@ body {
   outline: none;
   font-size: inherit;
   border-bottom: 2px solid var(--color-black);
-  width: 35rem;
+  width: 40rem;
+  height: 4rem;
   padding: 0 .5rem;
   font-family: inhernit;
-  font-size: 1.4rem;
   transition: all .2s;
   display: flex;
 }
 .email:hover {
-  width: 40rem;
+  width: 45rem;
 }
 .email__input {
   border: none;
   outline: none;
   background-color: #f1f1f1;
   margin-right: auto;
+  font-size: 1.4rem;
 }
 .email__send {
   border: none;
+  background-color: #f1f1f1;
 }
 .email .icon {
   width: 2rem;
@@ -186,7 +206,7 @@ body {
 
 .btn-load-more {
   margin-left: 50%;
-  margin-top: 14rem;
+  margin-top: 7rem;
   transform: translateX(-50%);
   width: 17rem;
   height: 6rem;
