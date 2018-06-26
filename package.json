@@ -1,0 +1,11 @@
+{
+  "name": "minimo",
+  "version": "1.0.0",
+  "description": "thuc tap 2018",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "live-server"
+  },
+  "author": "hungtrn75",
+  "license": "ISC"
+}

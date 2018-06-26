@@ -1,0 +1,40 @@
+.container {
+    width: 120rem;
+    min-height: 800px;
+    margin: 8rem auto;
+    padding: 7rem;
+    background-color: var(--color-primary);
+
+    box-shadow: var(--shadow-dark);
+}
+
+.header {
+    width: 100%;
+}
+
+.photo {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3rem 0;
+}
+
+.content {
+    width: 100%;
+    padding: 1.5rem 8rem;
+    color: inherit;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.cta {
+    width: 120rem;
+    height: 29rem;
+    margin-left: -15rem;
+    background-color: lighten(#f0f0f0, 0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
