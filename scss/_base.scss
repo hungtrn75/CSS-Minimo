@@ -1,8 +1,9 @@
 :root{
 	--color-primary:#ffffff;
 	--color-header:#000000;
-	--color-text:#626262;
-	--color-cta:#f0f0f0;
+	--color-text:lighten(#a1a1a1,.2);
+	--color-title:#c7c1b6;
+	--color-cta:darken(#f0f0f0,0.2);
 	--color-black:rgba(0,0,0, 0.7);
 
 	--shadow-dark: 0 1rem 2rem rgba(0, 0, 0, 0.4);
@@ -17,7 +18,7 @@
 @font-face {
     font-family: PlayfairDisplayBold;
     src: url(../FONTS/Playfair_Display/PlayfairDisplay-Bold.ttf);
-    font-weight: 700;
+    font-weight: 400;
 }
 
 @font-face {

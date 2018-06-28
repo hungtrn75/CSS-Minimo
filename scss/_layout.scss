@@ -17,6 +17,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 7.5rem 0;
+    &__item{
+        margin: 3rem 0;
+    }
 }
 
 .content {
