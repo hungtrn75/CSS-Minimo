@@ -4,7 +4,7 @@
     margin: 8rem auto;
     padding: 7rem;
     background-color: var(--color-primary);
-
+    position: relative;
     box-shadow: var(--shadow-dark);
 }
 
@@ -16,7 +16,7 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 3rem 0;
+    margin: 7.5rem 0;
 }
 
 .content {
@@ -39,3 +39,17 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+.about{
+    display: flex;
+    align-items: center;
+    background-color: lighten(#f0f0f0, 0.3);
+    height: 10rem;
+    width: 120rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 15rem;
+    padding-right: 7rem;
+}
+
